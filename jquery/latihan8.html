@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Functions</title>
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#pl").css("color","red").slideUp(2000).slideDown(2000);
+			});
+		});
+	</script>
+</head>
+<body>
+
+	<P id="pl">jQuery is fun!!</P>
+
+	<button>Click me</button>
+
+</body>
+</html>

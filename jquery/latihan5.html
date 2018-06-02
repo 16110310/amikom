@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Effects - Animation</title>
+	<script src="js/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("div").animate({
+				left: '250px',
+				opacity: '0.5',
+				height: '150px',
+				width: '150px'
+			});
+		});
+	});
+	</script>
+</head>
+<body>
+
+	<button>Start Animation</button>
+
+	<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+	<div style="background:#98bf21;height: 100px;width: 100px;position: absolute;"></div>
+</body>
+</html>
